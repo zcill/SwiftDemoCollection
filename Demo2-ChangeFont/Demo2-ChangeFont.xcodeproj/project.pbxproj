@@ -14,6 +14,10 @@
 		4CB605F41C74C74900C1F6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB605F21C74C74900C1F6E2 /* LaunchScreen.storyboard */; };
 		4CB605FF1C74C74900C1F6E2 /* Demo2_ChangeFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB605FE1C74C74900C1F6E2 /* Demo2_ChangeFontTests.swift */; };
 		4CB6060A1C74C74900C1F6E2 /* Demo2_ChangeFontUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB606091C74C74900C1F6E2 /* Demo2_ChangeFontUITests.swift */; };
+		4CB6061B1C74C7A800C1F6E2 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB606171C74C7A800C1F6E2 /* Gaspar Regular.otf */; };
+		4CB6061C1C74C7A800C1F6E2 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB606181C74C7A800C1F6E2 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		4CB6061D1C74C7A800C1F6E2 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB606191C74C7A800C1F6E2 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		4CB6061E1C74C7A800C1F6E2 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6061A1C74C7A800C1F6E2 /* MFZhiHei_Noncommercial-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4CB606051C74C74900C1F6E2 /* Demo2-ChangeFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo2-ChangeFontUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB606091C74C74900C1F6E2 /* Demo2_ChangeFontUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2_ChangeFontUITests.swift; sourceTree = "<group>"; };
 		4CB6060B1C74C74900C1F6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB606171C74C7A800C1F6E2 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		4CB606181C74C7A800C1F6E2 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		4CB606191C74C7A800C1F6E2 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		4CB6061A1C74C7A800C1F6E2 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				4CB605E91C74C74900C1F6E2 /* AppDelegate.swift */,
 				4CB605EB1C74C74900C1F6E2 /* ViewController.swift */,
+				4CB606171C74C7A800C1F6E2 /* Gaspar Regular.otf */,
+				4CB606181C74C7A800C1F6E2 /* MFJinHei_Noncommercial-Regular.ttf */,
+				4CB606191C74C7A800C1F6E2 /* MFTongXin_Noncommercial-Regular.ttf */,
+				4CB6061A1C74C7A800C1F6E2 /* MFZhiHei_Noncommercial-Regular.ttf */,
 				4CB605ED1C74C74900C1F6E2 /* Main.storyboard */,
 				4CB605F01C74C74900C1F6E2 /* Assets.xcassets */,
 				4CB605F21C74C74900C1F6E2 /* LaunchScreen.storyboard */,
@@ -230,7 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB605F41C74C74900C1F6E2 /* LaunchScreen.storyboard in Resources */,
+				4CB6061B1C74C7A800C1F6E2 /* Gaspar Regular.otf in Resources */,
+				4CB6061E1C74C7A800C1F6E2 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				4CB6061C1C74C7A800C1F6E2 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				4CB605F11C74C74900C1F6E2 /* Assets.xcassets in Resources */,
+				4CB6061D1C74C7A800C1F6E2 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				4CB605EF1C74C74900C1F6E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
