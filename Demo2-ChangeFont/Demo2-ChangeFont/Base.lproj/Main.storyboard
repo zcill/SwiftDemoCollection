@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="5" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="b68-MW-o9u">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="5" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="b68-MW-o9u">
                                 <rect key="frame" x="0.0" y="64" width="375" height="377"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="0.039215686274509803" green="0.039215686274509803" blue="0.054901960784313725" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,12 +33,16 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2Y-dM-wdQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2Y-dM-wdQ">
                                 <rect key="frame" x="132" y="500" width="110" height="110"/>
                                 <color key="backgroundColor" red="0.85882352941176465" green="0.90196078431372551" blue="0.12941176470588237" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="FhJ-MF-ShU"/>
+                                    <constraint firstAttribute="height" constant="110" id="lR7-a3-nh8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="13"/>
                                 <state key="normal" title="Change Font">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -52,6 +56,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.039215686274509803" green="0.039215686274509803" blue="0.054901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="b68-MW-o9u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="68K-Yp-h7G"/>
+                            <constraint firstAttribute="trailing" secondItem="b68-MW-o9u" secondAttribute="trailing" id="Qkm-8P-y48"/>
+                            <constraint firstItem="S2Y-dM-wdQ" firstAttribute="top" secondItem="b68-MW-o9u" secondAttribute="bottom" constant="59" id="dC2-dI-CtM"/>
+                            <constraint firstItem="S2Y-dM-wdQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rnJ-CI-P3Y"/>
+                            <constraint firstItem="b68-MW-o9u" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rx9-RJ-j1t"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="b68-MW-o9u" secondAttribute="bottom" constant="226" id="sxU-7Y-CfF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Change Font" id="e6f-c5-b3Z"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

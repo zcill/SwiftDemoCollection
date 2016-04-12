@@ -35,7 +35,7 @@
                                                     <rect key="frame" x="157" y="88" width="60" height="60"/>
                                                     <state key="normal" image="playBtn"/>
                                                     <connections>
-                                                        <action selector="playButtonDidSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ttb-Vt-kAP"/>
+                                                        <action selector="playButtonDidSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9oU-l9-kiS"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
