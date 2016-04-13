@@ -39,3 +39,22 @@ Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Day
 // - Enable or disable objects based on if the keyboard is open
 // - Get values from the UISlider and convert them to Int for use in the Model
 ```
+
+#### Project5 - Basic TableView
+```
+// I learned how to:
+// - Build an Interface with Label and Buttons
+// - Use functions with buttons
+// - Use NSNumberFormatter
+// - Unwrapping Optionals
+// - Build custom Navigation Bar
+```
+
+#### Project6 - Getting Current Date And Time
+```
+// I learned how to:
+// - Work with NSDate and NSDateFormatter
+// - Set the current date and time based on the user's iPhone settings
+// - Format the date to the user's UTC time
+// - Refresh date and time
+```
