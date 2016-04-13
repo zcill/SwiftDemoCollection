@@ -27,3 +27,15 @@ Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Day
 // - Handle ads that don't load
 // - Use Constrains to pin iAd Banners at the bottom for portrait and landscape views
 ```
+#### Project4 - Tip Caculator
+```
+// I learned how to:
+// - Write an app in MVC pattern
+// - Work with Computed Properties
+// - Create a toolbar above the keyboard
+// - Set min and max values for Slider
+// - Convert Strings to Int / Double and vice versa
+// - Handle calculations with formulas written in the Model
+// - Enable or disable objects based on if the keyboard is open
+// - Get values from the UISlider and convert them to Int for use in the Model
+```

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="o0a-fc-Eoh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tip Calculator-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project4_Tip_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0.00" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fID-Rz-qvm">
+                                <rect key="frame" x="16" y="112" width="343" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="oR8-FP-IDx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="80"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gME-cf-PhF">
+                                <rect key="frame" x="317" y="220" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip(15%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whB-Pp-c93">
+                                <rect key="frame" x="200" y="220" width="66" height="21"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0T-jT-Pb0">
+                                <rect key="frame" x="226" y="249" width="40" height="21"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pq9-Jz-MYA">
+                                <rect key="frame" x="317" y="247" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.14999999999999999" minValue="0.0" maxValue="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XdC-Uq-gdl">
+                                <rect key="frame" x="14" y="319" width="347" height="31"/>
+                                <connections>
+                                    <action selector="sliderValueChangedAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="7oQ-jf-kf6"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fID-Rz-qvm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3EC-5x-keo"/>
+                            <constraint firstItem="b0T-jT-Pb0" firstAttribute="top" secondItem="whB-Pp-c93" secondAttribute="bottom" constant="8" id="5Jg-Yn-ouh"/>
+                            <constraint firstItem="whB-Pp-c93" firstAttribute="top" secondItem="gME-cf-PhF" secondAttribute="top" id="9kU-uB-dB2"/>
+                            <constraint firstItem="gME-cf-PhF" firstAttribute="leading" secondItem="whB-Pp-c93" secondAttribute="trailing" constant="51" id="DfT-cJ-Gcc"/>
+                            <constraint firstItem="Pq9-Jz-MYA" firstAttribute="trailing" secondItem="gME-cf-PhF" secondAttribute="trailing" id="NPI-4K-LmA"/>
+                            <constraint firstItem="b0T-jT-Pb0" firstAttribute="trailing" secondItem="whB-Pp-c93" secondAttribute="trailing" id="Oc0-4y-T0S"/>
+                            <constraint firstItem="fID-Rz-qvm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="Swa-Do-6kd"/>
+                            <constraint firstItem="gME-cf-PhF" firstAttribute="top" secondItem="fID-Rz-qvm" secondAttribute="bottom" constant="8" id="iLW-5A-flH"/>
+                            <constraint firstItem="Pq9-Jz-MYA" firstAttribute="top" secondItem="gME-cf-PhF" secondAttribute="bottom" constant="6" id="iZY-YU-hjT"/>
+                            <constraint firstItem="XdC-Uq-gdl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irk-ER-nCc"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="XdC-Uq-gdl" secondAttribute="leading" id="naI-dx-fVi"/>
+                            <constraint firstItem="XdC-Uq-gdl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tIF-S7-KND"/>
+                            <constraint firstItem="gME-cf-PhF" firstAttribute="trailing" secondItem="fID-Rz-qvm" secondAttribute="trailing" id="wJu-1m-xp7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="fID-Rz-qvm" secondAttribute="leading" id="x1X-8a-PLL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="gFS-3D-rWU"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="displayCurrencyTextField" destination="fID-Rz-qvm" id="Zhb-Vd-sen"/>
+                        <outlet property="tipsLabel" destination="gME-cf-PhF" id="zb3-bx-DRx"/>
+                        <outlet property="tipsPercentLabel" destination="whB-Pp-c93" id="xy4-fy-RiA"/>
+                        <outlet property="totalCountLabel" destination="Pq9-Jz-MYA" id="fBr-gZ-Uoa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.5" y="1048.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hc6-vQ-qVd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o0a-fc-Eoh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cCI-Jc-nzZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="GWz-xv-MxP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Am1-YU-Klk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328" y="1049"/>
+        </scene>
+    </scenes>
+</document>
