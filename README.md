@@ -2,7 +2,7 @@
 Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Days of swift](http://samvlu.com/), I also want to learn Swift by coding Demo.
 
 ### 100Days Of Swift
-#### Project1 - Tap Counter
+#### Project 1 - Tap Counter
 ```
 // I learned how to:
 // - Build an Interface with Label and Buttons
@@ -12,14 +12,14 @@ Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Day
 // - Build custom Navigation Bar
 ```
 
-#### Project2 - Tap Or Hold Counter
+#### Project 2 - Tap Or Hold Counter
 ```
 // I learned how to:
 // - Use and detect Long Press Gesture
 // - Work with multiple actions on one button
 ```
 
-#### Project3 - Swift iAd
+#### Project 3 - Swift iAd
 ```
 // I learned how to:
 // - Build an iAd Banner
@@ -27,7 +27,7 @@ Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Day
 // - Handle ads that don't load
 // - Use Constrains to pin iAd Banners at the bottom for portrait and landscape views
 ```
-#### Project4 - Tip Caculator
+#### Project 4 - Tip Caculator
 ```
 // I learned how to:
 // - Write an app in MVC pattern
@@ -40,7 +40,7 @@ Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Day
 // - Get values from the UISlider and convert them to Int for use in the Model
 ```
 
-#### Project5 - Basic TableView
+#### Project 5 - Basic TableView
 ```
 // I learned how to:
 // - Build an Interface with Label and Buttons
@@ -50,11 +50,26 @@ Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Day
 // - Build custom Navigation Bar
 ```
 
-#### Project6 - Getting Current Date And Time
+#### Project 6 - Getting Current Date And Time
 ```
 // I learned how to:
 // - Work with NSDate and NSDateFormatter
 // - Set the current date and time based on the user's iPhone settings
 // - Format the date to the user's UTC time
 // - Refresh date and time
+```
+#### Project 7 - Passing Data To Another View
+```
+// I learned how to:
+// - Store data in memory before changing views
+// - Send stored data from one view to the other
+```
+
+#### Project 8 - Swipe To Dismiss Keyboard
+```
+// I learned how to:
+// - Work with Gestures
+// - Create Custom Navigation Bars
+// - Customize the way Back Button are displayed
+// - Auto-launch the Keyboard when the View loads
 ```

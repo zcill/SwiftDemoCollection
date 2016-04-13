@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fiP-1v-cKE">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--First View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project7_Passing_Data_To_Another_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HcL-ta-VVI">
+                                <rect key="frame" x="20" y="85" width="560" height="270"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="HcL-ta-VVI" secondAttribute="trailing" id="27f-S0-Sbh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="HcL-ta-VVI" secondAttribute="leading" id="2Za-lK-8Kt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HcL-ta-VVI" secondAttribute="bottom" constant="245" id="Ydo-a0-eE4"/>
+                            <constraint firstItem="HcL-ta-VVI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="Zgb-Qc-H0m"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="First View" id="Oq0-Ge-JIf">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="edj-2A-Svi">
+                            <connections>
+                                <segue destination="OQQ-Gg-4ge" kind="show" identifier="Details" id="EBm-RJ-dq1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="HcL-ta-VVI" id="Sf0-ch-9du"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960" y="1049"/>
+        </scene>
+        <!--Second View-->
+        <scene sceneID="t6F-Cr-eng">
+            <objects>
+                <viewController id="OQQ-Gg-4ge" userLabel="Second View" customClass="SecondViewController" customModule="Project7_Passing_Data_To_Another_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5iN-no-Xcg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qrs-1r-NaJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XbH-CK-dwj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CpF-pE-49I">
+                                <rect key="frame" x="285" y="290" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CpF-pE-49I" firstAttribute="centerY" secondItem="XbH-CK-dwj" secondAttribute="centerY" id="LYY-XK-Wmb"/>
+                            <constraint firstItem="CpF-pE-49I" firstAttribute="centerX" secondItem="XbH-CK-dwj" secondAttribute="centerX" id="usU-wJ-7Wt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showTextLabel" destination="CpF-pE-49I" id="CZq-RE-xUq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2fO-Wf-9Eb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1600" y="1049"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WzK-4l-cnQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fiP-1v-cKE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yyv-bV-Dau">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mwE-Gn-OYm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="67p-AA-gQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="310" y="1049"/>
+        </scene>
+    </scenes>
+</document>
