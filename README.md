@@ -73,3 +73,21 @@ Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Day
 // - Customize the way Back Button are displayed
 // - Auto-launch the Keyboard when the View loads
 ```
+
+#### Project9 - Add Photo Fome Camera Roll
+```
+// I learned how to:
+// - Access the Camera Roll from within the App
+// - Create Image Picker Controller
+// - Handle a selected image in the Camera Roll
+// - Control how the image is displayed to prevent stretching
+```
+
+#### Project10 - Pull To Refresh TableView
+```
+// I learned how to:
+// - Build a custom TableView Controller
+// - Create custom Refresh Control
+// - Stop refresh animation when data finished updating
+// - Update the table with refreshed local data
+```
