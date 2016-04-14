@@ -1,5 +1,5 @@
 # SwiftDemoCollection
-Refer to [30DaysofSwift](https://github.com/allenwong/30DaysofSwift) and [100Days of swift](http://samvlu.com/), I also want to learn Swift by coding Demo.
+Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by coding Demo.
 
 ### 100Days Of Swift
 #### Project 1 - Tap Counter
