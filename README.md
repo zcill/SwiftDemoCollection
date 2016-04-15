@@ -2,7 +2,7 @@
 Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by coding Demo.
 
 ### 100Days Of Swift
-#### Project 1 - Tap Counter
+#### Project 01 - Tap Counter
 ```
 // I learned how to:
 // - Build an Interface with Label and Buttons
@@ -12,14 +12,14 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Build custom Navigation Bar
 ```
 
-#### Project 2 - Tap Or Hold Counter
+#### Project 02 - Tap Or Hold Counter
 ```
 // I learned how to:
 // - Use and detect Long Press Gesture
 // - Work with multiple actions on one button
 ```
 
-#### Project 3 - Swift iAd
+#### Project 03 - Swift iAd
 ```
 // I learned how to:
 // - Build an iAd Banner
@@ -27,7 +27,7 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Handle ads that don't load
 // - Use Constrains to pin iAd Banners at the bottom for portrait and landscape views
 ```
-#### Project 4 - Tip Caculator
+#### Project 04 - Tip Caculator
 ```
 // I learned how to:
 // - Write an app in MVC pattern
@@ -40,7 +40,7 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Get values from the UISlider and convert them to Int for use in the Model
 ```
 
-#### Project 5 - Basic TableView
+#### Project 05 - Basic TableView
 ```
 // I learned how to:
 // - Build an Interface with Label and Buttons
@@ -50,7 +50,7 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Build custom Navigation Bar
 ```
 
-#### Project 6 - Getting Current Date And Time
+#### Project 06 - Getting Current Date And Time
 ```
 // I learned how to:
 // - Work with NSDate and NSDateFormatter
@@ -58,14 +58,14 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Format the date to the user's UTC time
 // - Refresh date and time
 ```
-#### Project 7 - Passing Data To Another View
+#### Project 07 - Passing Data To Another View
 ```
 // I learned how to:
 // - Store data in memory before changing views
 // - Send stored data from one view to the other
 ```
 
-#### Project 8 - Swipe To Dismiss Keyboard
+#### Project 08 - Swipe To Dismiss Keyboard
 ```
 // I learned how to:
 // - Work with Gestures
@@ -74,7 +74,7 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Auto-launch the Keyboard when the View loads
 ```
 
-#### Project9 - Add Photo Fome Camera Roll
+#### Project 09 - Add Photo Fome Camera Roll
 ```
 // I learned how to:
 // - Access the Camera Roll from within the App
@@ -83,7 +83,7 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Control how the image is displayed to prevent stretching
 ```
 
-#### Project10 - Pull To Refresh TableView
+#### Project 10 - Pull To Refresh TableView
 ```
 // I learned how to:
 // - Build a custom TableView Controller
@@ -92,7 +92,7 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Update the table with refreshed local data
 ```
 
-#### Project11 - Deleting And Rearranging
+#### Project 11 - Deleting And Rearranging
 ```
 // I learned how to:
 // - Remove data from Data Source
@@ -102,7 +102,7 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Enable swipe to delete Table Row
 ```
 
-#### Project12 - Add New Item
+#### Project 12 - Add New Item
 ```
 // I learned how to:
 // - Create a Model to interact with View Controllers
@@ -110,4 +110,19 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Update the Table View when the View loads
 // - Dismiss the view from the keyboard Done key
 // - Segue to new Views from a Button
+```
+
+#### Project 13 - Sticky Section Headers
+```
+// I learned how to:
+// - Store and access data in a Dictioanry
+// - Use a Dictionary to dynamically fill a table with text
+// - Create Sticky Section Headers based off data in a Dictionary
+```
+
+#### Project 14 - JumpBar
+```
+// I learned how to:
+// - Sort an Array in alphabetical order
+// - Create an Indexed Table View
 ```
