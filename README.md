@@ -91,3 +91,23 @@ Refer to [100Days of swift](http://samvlu.com/), I also want to learn Swift by c
 // - Stop refresh animation when data finished updating
 // - Update the table with refreshed local data
 ```
+
+#### Project11 - Deleting And Rearranging
+```
+// I learned how to:
+// - Remove data from Data Source
+// - Delete data from Table Row
+// - Animate the item deletion
+// - Handle rearranging Table Rows
+// - Enable swipe to delete Table Row
+```
+
+#### Project12 - Add New Item
+```
+// I learned how to:
+// - Create a Model to interact with View Controllers
+// - Add data to the Model
+// - Update the Table View when the View loads
+// - Dismiss the view from the keyboard Done key
+// - Segue to new Views from a Button
+```
